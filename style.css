@@ -1,11 +1,21 @@
 .carousel-caption h1 {
-    font-size: 400%;
+    font-size: 300%;
     text-shadow: 1px 1px 15px #000;
 }
 
 .carousel-caption p {
-    font-size: 200%;
+    font-size: 120%;
     text-shadow: 1px 1px 15px #000;
 }
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:576px) {
+    .carousel-caption h1 {
+        font-size: 100%;
+
+    }
+
+    .carousel-caption p {
+        font-size: 50%;
+
+    }
+}
